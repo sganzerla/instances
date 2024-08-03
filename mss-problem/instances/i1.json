@@ -1,0 +1,2890 @@
+{
+  "params": {
+    "rules": [],
+    "modules": [
+      {
+        "workload": 12,
+        "id": "16"
+      },
+      {
+        "workload": 16,
+        "id": "18"
+      },
+      {
+        "workload": 70,
+        "id": "20"
+      },
+      {
+        "workload": 40,
+        "id": "22"
+      },
+      {
+        "workload": 8,
+        "id": "24"
+      },
+      {
+        "workload": 20,
+        "id": "26"
+      },
+      {
+        "workload": 46,
+        "id": "28"
+      }
+    ],
+    "enrollments": [
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "2",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "2",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "10",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "10",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "18",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "18",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "26",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "26",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "34",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "34",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "42",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "42",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "50",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "50",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 0,
+        "groupId": "58",
+         "students": 6,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 1,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "327"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "12"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "21"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "27"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "34"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "37"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "48"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "93"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "94"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "148"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "149"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "151"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "152"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "316"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "318"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "319"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "320"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "325"
+      },
+      {
+        "subgroup": 2,
+        "groupId": "58",
+         "students": 3,
+        "scenarioId": "327"
+      }
+    ],
+    "scenarios": [
+      {
+        "workload": 255,
+        "moduleId": "28",
+        "id": "12",
+        "shift": "T",
+        "size": 6,
+        "weekDayId": 2
+      },
+      {
+        "workload": 255,
+        "moduleId": "28",
+        "id": "21",
+        "shift": "T",
+        "size": 13,
+        "weekDayId": 2
+      },
+      {
+        "workload": 255,
+        "moduleId": "22",
+        "id": "27",
+        "shift": "M",
+        "size": 999,
+        "weekDayId": 2
+      },
+      {
+        "workload": 120,
+        "moduleId": "22",
+        "id": "34",
+        "shift": "M",
+        "size": 999,
+        "weekDayId": 3
+      },
+      {
+        "workload": 120,
+        "moduleId": "22",
+        "id": "37",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 3
+      },
+      {
+        "workload": 255,
+        "moduleId": "28",
+        "id": "48",
+        "shift": "T",
+        "size": 13,
+        "weekDayId": 2
+      },
+      {
+        "workload": 255,
+        "moduleId": "18",
+        "id": "93",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 1
+      },
+      {
+        "workload": 255,
+        "moduleId": "18",
+        "id": "94",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 1
+      },
+      {
+        "workload": 255,
+        "moduleId": "28",
+        "id": "148",
+        "shift": "T",
+        "size": 6,
+        "weekDayId": 2
+      },
+      {
+        "workload": 240,
+        "moduleId": "28",
+        "id": "149",
+        "shift": "N",
+        "size": 6,
+        "weekDayId": 2
+      },
+      {
+        "workload": 120,
+        "moduleId": "24",
+        "id": "151",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 3
+      },
+      {
+        "workload": 120,
+        "moduleId": "24",
+        "id": "152",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 3
+      },
+      {
+        "workload": 285,
+        "moduleId": "20",
+        "id": "316",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 5
+      },
+      {
+        "workload": 255,
+        "moduleId": "16",
+        "id": "318",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 4
+      },
+      {
+        "workload": 255,
+        "moduleId": "16",
+        "id": "319",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 4
+      },
+      {
+        "workload": 255,
+        "moduleId": "16",
+        "id": "320",
+        "shift": "T",
+        "size": 999,
+        "weekDayId": 4
+      },
+      {
+        "workload": 150,
+        "moduleId": "26",
+        "id": "325",
+        "shift": "M",
+        "size": 999,
+        "weekDayId": 3
+      },
+      {
+        "workload": 150,
+        "moduleId": "26",
+        "id": "327",
+        "shift": "M",
+        "size": 999,
+        "weekDayId": 4
+      }
+    ],
+    "days": [
+      "2023-02-20",
+      "2023-02-21",
+      "2023-02-22",
+      "2023-02-23",
+      "2023-02-24",
+      "2023-02-27",
+      "2023-02-28",
+      "2023-03-01",
+      "2023-03-02",
+      "2023-03-03",
+      "2023-03-06",
+      "2023-03-07",
+      "2023-03-08",
+      "2023-03-09",
+      "2023-03-10",
+      "2023-03-13",
+      "2023-03-14",
+      "2023-03-15",
+      "2023-03-16",
+      "2023-03-17",
+      "2023-03-20",
+      "2023-03-21",
+      "2023-03-22",
+      "2023-03-23",
+      "2023-03-24",
+      "2023-03-27",
+      "2023-03-28",
+      "2023-03-29",
+      "2023-03-30",
+      "2023-03-31",
+      "2023-04-03",
+      "2023-04-04",
+      "2023-04-05",
+      "2023-04-06",
+      "2023-04-07",
+      "2023-04-10",
+      "2023-04-11",
+      "2023-04-12",
+      "2023-04-13",
+      "2023-04-14",
+      "2023-04-17",
+      "2023-04-18",
+      "2023-04-19",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-24",
+      "2023-04-25",
+      "2023-04-26",
+      "2023-04-27",
+      "2023-04-28",
+      "2023-05-01",
+      "2023-05-02",
+      "2023-05-03",
+      "2023-05-04",
+      "2023-05-05",
+      "2023-05-08",
+      "2023-05-09",
+      "2023-05-10",
+      "2023-05-11",
+      "2023-05-12",
+      "2023-05-15",
+      "2023-05-16",
+      "2023-05-17",
+      "2023-05-18",
+      "2023-05-19",
+      "2023-05-22",
+      "2023-05-23",
+      "2023-05-24",
+      "2023-05-25",
+      "2023-05-26",
+      "2023-05-29",
+      "2023-05-30",
+      "2023-05-31",
+      "2023-06-01",
+      "2023-06-02",
+      "2023-06-05",
+      "2023-06-06",
+      "2023-06-07",
+      "2023-06-08",
+      "2023-06-09",
+      "2023-06-12",
+      "2023-06-13",
+      "2023-06-14",
+      "2023-06-15",
+      "2023-06-16",
+      "2023-06-19",
+      "2023-06-20",
+      "2023-06-21",
+      "2023-06-22",
+      "2023-06-23",
+      "2023-06-26",
+      "2023-06-27",
+      "2023-06-28",
+      "2023-06-29",
+      "2023-06-30",
+      "2023-07-03",
+      "2023-07-04",
+      "2023-07-05",
+      "2023-07-06",
+      "2023-07-07",
+      "2023-07-10",
+      "2023-07-11",
+      "2023-07-12",
+      "2023-07-13",
+      "2023-07-14"
+    ]
+  },
+  "config": {
+    "solver": "CPLEX",
+    "objective1": 1,
+    "objective2": 100,
+    "turnover": 1,
+    "objective3": 1000,
+    "timeout": 10
+  }
+}

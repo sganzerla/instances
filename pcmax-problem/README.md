@@ -32,7 +32,7 @@ In each class, 10 (n/m) pairs are included according to:
 
 ## I1600
 
-The set \texttt{I1600} is distributed into four distinct classes with the following $p$ intervals:
+The set is distributed into four distinct classes with the following $p$ intervals:
 
     • C1: discrete uniform distribution of the interval [1, 10000];
     • C2: discrete uniform distribution of the interval [10000, 20000];

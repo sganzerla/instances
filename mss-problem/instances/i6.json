@@ -1,0 +1,3198 @@
+{
+    "config": {
+      "objective3": 1000,
+      "objective1": 1,
+      "turnover": 1,
+      "solver": "CPLEX",
+      "objective2": 100,
+      "timeout": 10
+    },
+    "params": {
+      "rules": [],
+      "scenarios": [
+        {
+          "size": 10,
+          "id": "C100",
+          "workload": 240,
+          "shift": "T",
+          "weekDayId": 1,
+          "moduleId": "M1"
+        },
+        {
+          "size": 6,
+          "id": "C107",
+          "workload": 120,
+          "shift": "M",
+          "weekDayId": 2,
+          "moduleId": "M2"
+        },
+        {
+          "size": 6,
+          "id": "C108",
+          "workload": 240,
+          "shift": "T",
+          "weekDayId": 2,
+          "moduleId": "M2"
+        },
+        {
+          "size": 10,
+          "id": "C101",
+          "workload": 240,
+          "shift": "T",
+          "weekDayId": 1,
+          "moduleId": "M3"
+        },
+        {
+          "size": 10,
+          "id": "C102",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 5,
+          "moduleId": "M3"
+        },
+        {
+          "size": 5,
+          "id": "C103",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 3,
+          "moduleId": "M3"
+        },
+        {
+          "size": 24,
+          "id": "C94",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 3,
+          "moduleId": "M4"
+        },
+        {
+          "size": 6,
+          "id": "C88",
+          "workload": 240,
+          "shift": "T",
+          "weekDayId": 4,
+          "moduleId": "M5"
+        },
+        {
+          "size": 5,
+          "id": "C92",
+          "workload": 240,
+          "shift": "T",
+          "weekDayId": 4,
+          "moduleId": "M5"
+        },
+        {
+          "size": 6,
+          "id": "C93",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 5,
+          "moduleId": "M5"
+        },
+        {
+          "size": 8,
+          "id": "C104",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 4,
+          "moduleId": "M6"
+        },
+        {
+          "size": 8,
+          "id": "C105",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 4,
+          "moduleId": "M6"
+        },
+        {
+          "size": 10,
+          "id": "C106",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 5,
+          "moduleId": "M6"
+        },
+        {
+          "size": 3,
+          "id": "C86",
+          "workload": 240,
+          "shift": "T",
+          "weekDayId": 5,
+          "moduleId": "M7"
+        },
+        {
+          "size": 10,
+          "id": "C89",
+          "workload": 240,
+          "shift": "T",
+          "weekDayId": 5,
+          "moduleId": "M7"
+        },
+        {
+          "size": 10,
+          "id": "C90",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 4,
+          "moduleId": "M7"
+        },
+        {
+          "size": 10,
+          "id": "C98",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 4,
+          "moduleId": "M7"
+        },
+        {
+          "size": 3,
+          "id": "C87",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 3,
+          "moduleId": "M8"
+        },
+        {
+          "size": 10,
+          "id": "C91",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 3,
+          "moduleId": "M8"
+        },
+        {
+          "size": 10,
+          "id": "C99",
+          "workload": 240,
+          "shift": "M",
+          "weekDayId": 3,
+          "moduleId": "M8"
+        }
+      ],
+      "days": [
+        "2023-02-20",
+        "2023-02-21",
+        "2023-02-22",
+        "2023-02-23",
+        "2023-02-24",
+        "2023-02-27",
+        "2023-02-28",
+        "2023-03-01",
+        "2023-03-02",
+        "2023-03-03",
+        "2023-03-06",
+        "2023-03-07",
+        "2023-03-08",
+        "2023-03-09",
+        "2023-03-10",
+        "2023-03-13",
+        "2023-03-14",
+        "2023-03-15",
+        "2023-03-16",
+        "2023-03-17",
+        "2023-03-20",
+        "2023-03-21",
+        "2023-03-22",
+        "2023-03-23",
+        "2023-03-24",
+        "2023-03-27",
+        "2023-03-28",
+        "2023-03-29",
+        "2023-03-30",
+        "2023-03-31",
+        "2023-04-03",
+        "2023-04-04",
+        "2023-04-05",
+        "2023-04-06",
+        "2023-04-07",
+        "2023-04-10",
+        "2023-04-11",
+        "2023-04-12",
+        "2023-04-13",
+        "2023-04-14",
+        "2023-04-17",
+        "2023-04-18",
+        "2023-04-19",
+        "2023-04-20",
+        "2023-04-21",
+        "2023-04-24",
+        "2023-04-25",
+        "2023-04-26",
+        "2023-04-27",
+        "2023-04-28",
+        "2023-05-01",
+        "2023-05-02",
+        "2023-05-03",
+        "2023-05-04",
+        "2023-05-05",
+        "2023-05-08",
+        "2023-05-09",
+        "2023-05-10",
+        "2023-05-11",
+        "2023-05-12",
+        "2023-05-15",
+        "2023-05-16",
+        "2023-05-17",
+        "2023-05-18",
+        "2023-05-19",
+        "2023-05-22",
+        "2023-05-23",
+        "2023-05-24",
+        "2023-05-25",
+        "2023-05-26",
+        "2023-05-29",
+        "2023-05-30",
+        "2023-05-31",
+        "2023-06-01",
+        "2023-06-02",
+        "2023-06-05",
+        "2023-06-06",
+        "2023-06-07",
+        "2023-06-08",
+        "2023-06-09",
+        "2023-06-12",
+        "2023-06-13",
+        "2023-06-14",
+        "2023-06-15",
+        "2023-06-16",
+        "2023-06-19",
+        "2023-06-20",
+        "2023-06-21",
+        "2023-06-22",
+        "2023-06-23",
+        "2023-06-26",
+        "2023-06-27",
+        "2023-06-28",
+        "2023-06-29",
+        "2023-06-30",
+        "2023-07-03",
+        "2023-07-04",
+        "2023-07-05",
+        "2023-07-06",
+        "2023-07-07",
+        "2023-07-10",
+        "2023-07-11",
+        "2023-07-12",
+        "2023-07-13",
+        "2023-07-14"
+      ],
+      "enrollments": [
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G1",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G2",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G3",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G4",
+          "subgroup": 2,
+          "students": 3,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G5",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 0,
+          "students": 5,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 1,
+          "students": 3,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G6",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 0,
+          "students": 4,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G7",
+          "subgroup": 2,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 0,
+          "students": 6,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 1,
+          "students": 2,
+          "scenarioId": "C99"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C100"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C107"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C108"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C101"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C102"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C103"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C94"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C88"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C92"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C93"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C104"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C105"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C106"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C86"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C89"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C90"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C98"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C87"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C91"
+        },
+        {
+          "groupId": "G8",
+          "subgroup": 2,
+          "students": 4,
+          "scenarioId": "C99"
+        }
+      ],
+      "modules": [
+        {
+          "id": "M1",
+          "workload": 20
+        },
+        {
+          "id": "M2",
+          "workload": 10
+        },
+        {
+          "id": "M3",
+          "workload": 40
+        },
+        {
+          "id": "M4",
+          "workload": 32
+        },
+        {
+          "id": "M5",
+          "workload": 12
+        },
+        {
+          "id": "M6",
+          "workload": 40
+        },
+        {
+          "id": "M7",
+          "workload": 40
+        },
+        {
+          "id": "M8",
+          "workload": 40
+        }
+      ]
+    }
+  }
