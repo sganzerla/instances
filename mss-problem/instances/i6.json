@@ -1,14 +1,5 @@
 {
-    "config": {
-      "objective3": 1000,
-      "objective1": 1,
-      "turnover": 1,
-      "solver": "CPLEX",
-      "objective2": 100,
-      "timeout": 10
-    },
     "params": {
-      "rules": [],
       "scenarios": [
         {
           "size": 10,
