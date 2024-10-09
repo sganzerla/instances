@@ -1,6 +1,6 @@
 # mss-problem
 
-Instances for Medical Student Scheduling Problem
+Instances for Medical Student Scheduling Problem in https://ojs.revistagesec.org.br/secretariado/article/view/4227/2734
 
 ## Instances
 
@@ -13,14 +13,6 @@ Enrollments contain information by groups and subgroups of students, and the sce
 Scenarios scenarios have shifts, day of the week and capacity, and workload (minutes) per module per day.
 
 Days there are 105 dates between 20/03/23 and 14/07/23.
-
-## LP files
-
-There are .lp files for MIP-A and MIP-B weights configurations:
-
-MIP-A (O1=1, O2=100, O3=1000, O4=0 and O5=0)
-
-MIP-B (O1=0, O2=1, O3=0, O4=0 and O5=100)
 
 ## Solution
 
